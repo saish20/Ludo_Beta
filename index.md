@@ -23,7 +23,7 @@
     }
     table{
       margin-bottom: 4rem;
-      width: 80%;
+      width: 60%;
       margin: auto;
     }
 
@@ -35,125 +35,53 @@
     }
     h1{
       font-family: 'Poppins', sans-serif;
-      /* font-size: 60px; */
+      font-size: 30px;
+      color: blue;
       font-weight: 400;text-align: center;
     }
 
+    h2{
+      font-family: 'Poppins', sans-serif;
+      font-size: 30px;
+      color: red;
+      font-weight: 400;text-align: center;
+    }
+    h3{
+      font-family: 'Poppins', sans-serif;
+      font-size: 30px;
+      color: green;
+      font-weight: 400;text-align: center;
+    }
+    h4{
+      font-family: 'Poppins', sans-serif;
+      font-size: 30px;
+      color: yellow;
+      font-weight: 400;text-align: center;
+    }
+    h5{
+      font-family: 'Poppins', sans-serif;
+       font-size: 30px;
+      font-weight: 400;text-align: center;
+    }
   </style>
 </head>
 <body>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+        <h1>Welcome</h1>
+        <h2>You are now in the Endgame</h2>
+        <h3>Ludo Premier League</h3>
+          <h4>2020</h4>
+
         <br>
         <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
 
-    <table>
-            <tr>
-              <th rowspan="4">Saish</th>
-              <th colspan="2">Yuvraj</th>
-
-            </tr>
-            <tr>
-
-              <td>Samrya</td>
-              <td>Samrya</td>
-            </tr>
-            <tr>
-
-              <td>Samrya</td>
-              <td>Samrya</td>
-            </tr>
-            <tr>
-
-              <td>Samrya</td>
-              <td>Samrya</td>
-            </tr>
-    </table>
-
-
-
-
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-
-
-
-
-
-
-
-
-        <h1>Table 1</h1>
-        <table>
-          <tr>
-            <td rowspan="6">Next 5 Fixtures</td>
-            <th>Team</th>
-            <th>Team</th>
-            <th>Team</th>
-            <th>Team</th>
-          </tr>
-          <tr>
-
-            <td>Akshay D</td>
-            <td>Akshay M</td>
-            <td>Akshay M</td>
-            <td>Akshay M</td>
-          </tr>
-          <tr>
-
-            <td>Akshay D</td>
-            <td>Akshay M</td>
-            <td>Akshay M</td>
-            <td>Akshay M</td>
-          </tr>
-          <tr>
-
-            <td>Akshay D</td>
-            <td>Sameeeer</td>
-            <td>Akshay M</td>
-            <td>Akshay M</td>
-          </tr>
-          <tr>
-
-            <td>Akshay D</td>
-            <td>Akshay M</td>
-            <td>Akshay M</td>
-            <td>Akshay M</td>
-          </tr>
-          <tr>
-
-            <td>Akshay D</td>
-            <td>Akshay M</td>
-            <td>Akshay M</td>
-            <td>Akshay M</td>
-          </tr>
-        </table>
-
-        <h1>Table 2</h1>
+        <h5>The story so far</h5>
         <table>
           <tr>
             <th>Player</th>
@@ -237,7 +165,56 @@
           </tr>
         </table>
 
+        <br>
+        <br>
+        <br>
 
+        <h5> Signs of things to come</h5>
+
+        <table>
+          <tr>
+            <td rowspan="6">Next 5 Fixtures</td>
+            <th>Team</th>
+            <th>Team</th>
+            <th>Team</th>
+            <th>Team</th>
+          </tr>
+          <tr>
+
+            <td>Akshay D</td>
+            <td>Akshay M</td>
+            <td>Akshay M</td>
+            <td>Akshay M</td>
+          </tr>
+          <tr>
+
+            <td>Akshay D</td>
+            <td>Akshay M</td>
+            <td>Akshay M</td>
+            <td>Akshay M</td>
+          </tr>
+          <tr>
+
+            <td>Akshay D</td>
+            <td>Sameeeer</td>
+            <td>Akshay M</td>
+            <td>Akshay M</td>
+          </tr>
+          <tr>
+
+            <td>Akshay D</td>
+            <td>Akshay M</td>
+            <td>Akshay M</td>
+            <td>Akshay M</td>
+          </tr>
+          <tr>
+
+            <td>Akshay D</td>
+            <td>Akshay M</td>
+            <td>Akshay M</td>
+            <td>Akshay M</td>
+          </tr>
+        </table>
 
 
 
