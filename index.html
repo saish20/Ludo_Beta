@@ -1,96 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./css/textrotator.css">
-  <title>Document</title>
-  <style>
-    body{
-      /* height: 100vh; */
-      display: -webkit-flex;
-      display: -ms-flex;
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-
-    }
-    table, tr, td, th{
-      border:1px solid #b5b1b1;
-      border-collapse: collapse;
-    }
-    table{
-      margin-bottom: 4rem;
-      width: 60%;
-      margin: auto;
-    }
-
-
-    td, th{
-      padding:10px 20px;
-      font-family: 'Poppins';
-      text-align:center;
-    }
-    h1{
-      font-family: 'Poppins', sans-serif;
-      font-size: 35px;
-      color: blue;
-      font-weight: 400;text-align: center;
-    }
-
-    h2{
-      font-family: 'Poppins', sans-serif;
-      font-size: 35px;
-      color: red;
-      font-weight: 400;text-align: center;
-    }
-    h3{
-      font-family: 'Poppins', sans-serif;
-      font-size: 35px;
-      color: green;
-      font-weight: 400;text-align: center;
-    }
-    h4{
-      font-family: 'Poppins', sans-serif;
-      font-size: 35px;
-      color: yellow;
-      font-weight: 400;text-align: center;
-    }
-    h5{
-      font-family: 'Poppins', sans-serif;
-       font-size: 30px;
-      font-weight: 400;text-align: center;
-    }
-  </style>
-</head>
-<body>
-
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-
-        <h1>Welcome</h1>
-        <h2>You are now in the Endgame</h2>
-        <h3>Ludo Premier League</h3>
-          <h4>2020</h4>
-
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-
-        <h5>The story so far</h5>
-        <table>
-          <tr>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="./css/textrotator.css">
+      <title>Document</title>
+      <style>
+         body{
+         /* height: 100vh; */
+         display: -webkit-flex;
+         display: -ms-flex;
+         display: flex;
+         justify-content: center;
+         flex-direction: column;
+         }
+         table, tr, td, th{
+         border:1px solid #b5b1b1;
+         border-collapse: collapse;
+         }
+         table{
+         margin-bottom: 4rem;
+         width: 60%;
+         margin: auto;
+         }
+         td, th{
+         padding:10px 20px;
+         font-family: 'Poppins';
+         text-align:center;
+         }
+         p1{
+         font-family: 'Poppins', sans-serif;
+         font-size: 35px;
+         color: blue;
+         font-weight: 400;text-align: center;
+         }
+         p2{
+         font-family: 'Poppins', sans-serif;
+         font-size: 35px;
+         color: red;
+         font-weight: 400;text-align: center;
+         }
+         p3{
+         font-family: 'Poppins', sans-serif;
+         font-size: 35px;
+         color: green;
+         font-weight: 400;text-align: center;
+         }
+         p4{
+         font-family: 'Poppins', sans-serif;
+         font-size: 35px;
+         color: yellow;
+         font-weight: 400;text-align: center;
+         }
+         h5{
+         font-family: 'Poppins', sans-serif;
+         font-size: 30px;
+         font-weight: 400;text-align: center;
+         }
+         .parent{
+         display: -webkit-flex;
+         display: -ms-flex;
+         display: flex;
+         justify-content: center;
+         }
+         .child{
+         margin: 2rem;
+         display: -webkit-flex;
+         display: -ms-flex;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         }
+         .child *{
+         text-align: left;
+         }
+      </style>
+   </head>
+   <body>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div class="parent">
+         <div class="child">
+            <img src="./ludo.PNG" alt="Ludo Premier League" width="300" height="320">
+         </div>
+         <div class="child">
+            <p1>Welcome</p1>
+            <p2>You are now in the Endgame</p2>
+            <p3>Ludo Premier League</p3>
+            <p4>2020</p4>
+         </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <h5>The story so far</h5>
+      <table>
+         <tr>
             <th>Player</th>
             <th>Played</th>
             <th>Won First</th>
@@ -98,8 +114,8 @@
             <th>Lost</th>
             <th>Points</th>
             <th>Form</th>
-          </tr>
-          <tr>
+         </tr>
+         <tr>
             <td>Akshay D</td>
             <td>1</td>
             <td>0</td>
@@ -107,8 +123,8 @@
             <td>1</td>
             <td>1</td>
             <td>L</td>
-          </tr>
-          <tr>
+         </tr>
+         <tr>
             <td>Akshay M</td>
             <td></td>
             <td></td>
@@ -116,8 +132,8 @@
             <td></td>
             <td></td>
             <td></td>
-          </tr>
-          <tr>
+         </tr>
+         <tr>
             <td>Ashish</td>
             <td></td>
             <td></td>
@@ -125,8 +141,8 @@
             <td></td>
             <td></td>
             <td></td>
-          </tr>
-          <tr>
+         </tr>
+         <tr>
             <td>Mohit</td>
             <td>1</td>
             <td>0</td>
@@ -134,8 +150,8 @@
             <td>1</td>
             <td>1</td>
             <td>L</td>
-          </tr>
-          <tr>
+         </tr>
+         <tr>
             <td>Nikhil</td>
             <td>1</td>
             <td>1</td>
@@ -143,8 +159,8 @@
             <td>0</td>
             <td>3</td>
             <td>W</td>
-          </tr>
-          <tr>
+         </tr>
+         <tr>
             <td>Rushabh</td>
             <td></td>
             <td></td>
@@ -152,8 +168,8 @@
             <td></td>
             <td></td>
             <td></td>
-          </tr>
-          <tr>
+         </tr>
+         <tr>
             <td>Saish</td>
             <td>1</td>
             <td>0</td>
@@ -161,8 +177,8 @@
             <td>0</td>
             <td>2</td>
             <td>W</td>
-          </tr>
-          <tr>
+         </tr>
+         <tr>
             <td>Vinayak</td>
             <td></td>
             <td></td>
@@ -170,8 +186,8 @@
             <td></td>
             <td></td>
             <td></td>
-          </tr>
-          <tr>
+         </tr>
+         <tr>
             <td>Yuvraj</td>
             <td></td>
             <td></td>
@@ -179,64 +195,81 @@
             <td></td>
             <td></td>
             <td></td>
-          </tr>
-        </table>
-
-        <br>
-        <br>
-        <br>
-
-        <h5> Signs of things to come</h5>
-
-        <table>
-          <tr>
-            <td rowspan="6">Next 5 Fixtures</td>
-            <th>Team 1</th>
-            <th>Team 2 </th>
-            <th>Team 3 </th>
-            <th>Team 4 </th>
-          </tr>
-          <tr>
-
-            <td>Akshay M</td>
-            <td>Rushabh</td>
-            <td>Saish</td>
-            <td>Vinayak</td>
-          </tr>
-
-
-          <tr>
-            <td>Akshay D</td>
-            <td>Akshay M</td>
-            <td>Ashish</td>
-            <td>Yuvraj</td>
-          </tr>
-
-          <tr>
-            <td>Akshay M</td>
-            <td>Saish</td>
-            <td>Vinayak</td>
-            <td>Yuvraj</td>
-          </tr>
-
-          <tr>
-            <td>Akshay D</td>
-            <td>Saish</td>
-            <td>Vinayak</td>
-            <td>Yuvraj</td>
-          </tr>
-
-          <tr>
-            <td>Akshay D</td>
-            <td>Mohit</td>
-            <td>Nikhil</td>
-            <td>Vinayak</td>
-          </tr>
-
-        </table>
-
-
-
-
-</body>
+         </tr>
+      </table>
+      <br>
+      <br>
+      <br>
+      <h5> Signs of things to come</h5>
+      <div class="parent">
+         <div class="child">
+            <table>
+               <tr>
+                  <td rowspan="6">Next 5 Fixtures</td>
+                  <th>Team 1</th>
+                  <th>Team 2 </th>
+                  <th>Team 3 </th>
+                  <th>Team 4 </th>
+               </tr>
+               <tr>
+                  <td>Akshay M</td>
+                  <td>Rushabh</td>
+                  <td>Saish</td>
+                  <td>Vinayak</td>
+               </tr>
+               <tr>
+                  <td>Akshay D</td>
+                  <td>Akshay M</td>
+                  <td>Ashish</td>
+                  <td>Yuvraj</td>
+               </tr>
+               <tr>
+                  <td>Akshay M</td>
+                  <td>Saish</td>
+                  <td>Vinayak</td>
+                  <td>Yuvraj</td>
+               </tr>
+               <tr>
+                  <td>Akshay D</td>
+                  <td>Saish</td>
+                  <td>Vinayak</td>
+                  <td>Yuvraj</td>
+               </tr>
+               <tr>
+                  <td>Akshay D</td>
+                  <td>Mohit</td>
+                  <td>Nikhil</td>
+                  <td>Vinayak</td>
+               </tr>
+            </table>
+         </div>
+         <div class="child">
+            <table>
+               <tr>
+                  <td colspan="2">Top Players (Win %)</td>
+               </tr>
+               <tr>
+                  <td>Ashish</td>
+                  <td>60.42</td>
+               <tr>
+               <tr>
+                  <td>Yuvraj</td>
+                  <td>54.22</td>
+               <tr>
+               <tr>
+                  <td>Vinayak</td>
+                  <td>53.21</td>
+               <tr>
+               <tr>
+                  <td>Nikhil</td>
+                  <td>51.36</td>
+               <tr>
+               <tr>
+                  <td>Rushabh</td>
+                  <td>48.08</td>
+               <tr>
+            </table>
+         </div>
+      </div>
+   </body>
 </html>
