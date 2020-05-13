@@ -1,12 +1,8 @@
 <?php
 include './includes/header.php';
 
- ?>
-
-
-
-
-<?php
-
-include './includes/footer.php';
+if($_POST['nextMatch'])
+{
+  echo "updated";
+}
  ?>
